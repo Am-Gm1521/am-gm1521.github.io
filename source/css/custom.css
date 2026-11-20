@@ -1,0 +1,22 @@
+/* 自定义样式：构建时已由 KaTeX 渲染，不依赖主题的 JS 门控 */
+#article-container .katex {
+  display: inline !important;
+}
+
+#article-container .katex-display .katex {
+  display: block !important;
+}
+
+/* 超长公式横向滚动，不撑破版面 */
+.katex-display {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 6px 0;
+}
+
+/* 代码块字号和行高，算法题解里贴长代码更易读 */
+#article-container figure.highlight,
+#article-container pre {
+  font-size: 13.5px;
+  line-height: 1.6;
+}
