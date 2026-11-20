@@ -20,3 +20,19 @@
   font-size: 13.5px;
   line-height: 1.6;
 }
+
+/* ===== 背景图 ===== */
+
+/* 整站背景：固定、铺满、居中 */
+#web_bg {
+  background-position: center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
+
+/* 顶部大图：方形图居中偏上，避免裁掉人物脸部 */
+#page-header {
+  background-position: center 28% !important;
+  background-size: cover !important;
+}
