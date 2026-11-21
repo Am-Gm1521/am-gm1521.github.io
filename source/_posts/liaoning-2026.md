@@ -1,5 +1,5 @@
 ---
-title: 2026 辽宁省赛（ABDFJKLM）
+title: 2026 ICPC辽宁省赛（ABDFJKLM）
 date: 2026-11-20 23:55:00
 categories: 比赛记录
 tags:
